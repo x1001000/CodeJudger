@@ -1,1 +1,1 @@
-# CodeJudger
+# TQC+ Python
