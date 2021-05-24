@@ -13,6 +13,7 @@ for t in range(2):
         else:               # 否則字典d新增一對key:value
             d[key] = input('Value: ')
 
-# d.items()是列出(key,value)的list，用key排序後，一一輪詢
-for key, value in sorted(d.items()):
-    print(f'{key}: {value}')
+# sorted(d)是排序過的d的keys，不含values
+keys = sorted(d)
+for key in keys:
+    print(f'{key}: {d[key]}')
